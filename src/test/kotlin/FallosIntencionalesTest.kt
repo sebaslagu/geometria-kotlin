@@ -1,5 +1,7 @@
 import kotlin.test.Test
+import kotlin.test.Ignore
 
+@Ignore("Pruebas intencionales para demostracion")
 class FallosIntencionalesTest {
     @Test
     fun `fallo intencional - circulo con radio cero no deberia fallar`() {
